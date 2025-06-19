@@ -1,71 +1,83 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://micheldeveloper.github.io', // replace with your actual username
+  title: 'MR.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Michel Rento',
+  role: 'Senior Software Engineer & Indie Game Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Tech and art enthusiast with a passion for building mobile games and immersive experiences. Experienced with Unity, C#, and React Native, with multiple indie titles and award-winning hackathon projects.',
+  resume: 'mailto:michelsiqueirarento@gmail.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/michel-rento-450871146/',
+    github: 'https://github.com/micheldeveloper', // replace with your GitHub username
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: "Darevil's Rampage",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Mobile arcade battle royale with procedural terrain generation, real-time lighting, and C# monetization system using Unity + AdMob.',
+    stack: ['Unity', 'C#', 'MagicaVoxel', 'Photoshop'],
+    sourceCode: 'https://apkpure.com/developer/MichelSiqueira',
+    livePreview: 'https://apkpure.com/developer/MichelSiqueira',
   },
   {
-    name: 'Project 2',
+    name: 'Pixel Draw!',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Pixel art drawing app for mobile devices. Features include custom painting tools, darkening, fill, and pixel manipulation.',
+    stack: ['Unity', 'C#'],
+    sourceCode: 'https://apkpure.com/developer/MichelSiqueira',
+    livePreview: 'https://apkpure.com/developer/MichelSiqueira',
   },
   {
-    name: 'Project 3',
+    name: 'Falling Bits',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Procedural endless runner with pixel art style and random platform generation. Built with Unity and C#.',
+    stack: ['Unity', 'C#', 'Photoshop', 'Piskel'],
+    sourceCode: 'https://apkpure.com/developer/MichelSiqueira',
+    livePreview: 'https://apkpure.com/developer/MichelSiqueira',
+  },
+  {
+    name: 'Smart Lesson (Hackathon Winner)',
+    description:
+      'Interactive classroom with real-time holograms. Built with Unity, Vuforia and Snapdragon hardware.',
+    stack: ['Unity', 'Vuforia', 'Snapdragon'],
+    sourceCode: 'https://www.instructables.com/id/Smart-Lesson/',
+    livePreview: 'https://www.instructables.com/id/Smart-Lesson/',
+  },
+  {
+    name: 'Smart Beer (Hackathon Finalist)',
+    description:
+      'IoT-driven smart brewery with Unity frontend and Arduino backend. Industry 4.0 concept demo.',
+    stack: ['Unity', 'Arduino', 'IoT'],
+    sourceCode: 'https://www.instructables.com/id/Smart-Beer/',
+    livePreview: 'https://www.instructables.com/id/Smart-Beer/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'React.js',
   'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'C#',
+  'CSS',
+  'Unity',
+  'React Native',
+  'UX/UI',
+  'Photoshop',
+  'MagicaVoxel',
+  'Piskel',
+  'Adobe Xd',
+  'MongoDB',
+  'Python',
+  'ES6',
+  'VUE',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'michelsiqueirarento@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
